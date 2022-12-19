@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'localhost:8000',
+  baseURL: 'master-7rqtwti-zcfkoh3mlrnng.eu-5.platformsh.site',
 });
 
 axiosInstance.interceptors.request.use((config) => {

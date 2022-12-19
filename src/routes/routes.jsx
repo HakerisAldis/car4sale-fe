@@ -3,5 +3,5 @@ export const PATHS = {
   login: '/login',
   registration: '/registration',
   myVehicles: '/my-vehicles',
-  admin: '/admin',
+  admin: '/control-panel',
 };

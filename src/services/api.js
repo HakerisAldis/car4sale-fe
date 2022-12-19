@@ -2,7 +2,7 @@
 
 import axios from "axios";
 
-const apiUrl = (url) => `https://localhost:8000${url}`;
+const apiUrl = (url) => `https://master-7rqtwti-zcfkoh3mlrnng.eu-5.platformsh.site${url}`;
 
 const toError = async (error) =>
   error.response?.data;
