@@ -137,7 +137,7 @@ const Header = () => {
                   >
                     <MenuItem onClick={function () {handleClose(); handleLogOut();}}>Atsijungti</MenuItem>
                     <MenuItem onClick={function () {handleClose(); navigate(PATHS.myVehicles)}}>Mano skelbimai</MenuItem>
-                    {user.roles.include('ROLE_ADMIN') && <MenuItem onClick={function () {handleClose(); navigate(PATHS.admin)}}>Admin</MenuItem>}
+                    {user.roles.includes('ROLE_ADMIN') && <MenuItem onClick={function () {handleClose(); navigate(PATHS.admin)}}>Admin</MenuItem>}
                   </Menu>
                 </>
               }
