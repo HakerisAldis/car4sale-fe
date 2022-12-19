@@ -11,13 +11,13 @@ export const MainListItems = ({ setActive }) => {
       <ListItemIcon>
         <LocationCityIcon />
       </ListItemIcon>
-      <ListItemText primary="City" />
+      <ListItemText primary="Miestai" />
     </ListItemButton>
     <ListItemButton onClick={() => setActive('lot')}>
       <ListItemIcon>
         <LocalParkingIcon />
       </ListItemIcon>
-      <ListItemText primary="Lot" />
+      <ListItemText primary="Aikštelės" />
     </ListItemButton>
   </React.Fragment>
 };

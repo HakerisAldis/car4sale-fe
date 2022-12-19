@@ -45,7 +45,7 @@ const NewAdDialog = ({ open, setOpen }) => {
         open={open}
         onClose={() => setOpen(false)}
         sx={{
-          '& .MuiFormControl-root': { m: 1, width: 380},
+          '& .MuiFormControl-root': { m: 1, width: 400},
         }}
         maxWidth={'xs'}
         component="form"

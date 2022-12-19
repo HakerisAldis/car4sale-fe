@@ -42,7 +42,7 @@ const AddNewLot = ({ open, setOpen }) => {
         component="form"
         onSubmit={handleSubmit}
       >
-        <DialogTitle>Naujas miestas</DialogTitle>
+        <DialogTitle>Nauja aikštelė</DialogTitle>
         <DialogContent>
           <TextField label="Pavadinimas" name="name" required />
           <TextField label="Adresas" name="address" required />
