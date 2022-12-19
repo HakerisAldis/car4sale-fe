@@ -133,13 +133,13 @@ function Admin() {
               <ListItemIcon>
                 <LocationCityIcon />
               </ListItemIcon>
-              <ListItemText primary="City" />
+              <ListItemText primary="Miestai" />
             </ListItemButton>
             <ListItemButton onClick={() => setActiveTab('lot')}>
               <ListItemIcon>
                 <LocalParkingIcon />
               </ListItemIcon>
-              <ListItemText primary="Lot" />
+              <ListItemText primary="Aikštelės" />
             </ListItemButton>
           </React.Fragment>
           </List>

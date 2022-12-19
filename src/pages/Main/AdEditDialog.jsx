@@ -32,7 +32,7 @@ const AdEditModal = ({ open, setOpen, vehicle }) => {
         open={open}
         onClose={() => setOpen(false)}
         sx={{
-          '& .MuiFormControl-root': { m: 1, width: 400},
+          '& .MuiFormControl-root': { m: 1, width: 360},
         }}
         maxWidth={'xs'}
         component="form"
